@@ -6,4 +6,4 @@ def newinfo():
 @myapp.route("/mail")
 def newmail():
     return "this is second function for my cicd pipeline"
-myapp.run()
+myapp.run(host="0.0.0.0", port=5000)
